@@ -1,0 +1,86 @@
+!SESSION 2017-07-06 22:55:45.085 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/tphillips/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/tphillips/geolocation -keyring /Users/tphillips/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-07-06 22:55:47.397
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY mega.js.tern 1 1 2017-07-06 22:55:54.624
+!MESSAGE Initialized Tern.js
+!SUBENTRY 1 mega.js.tern 1 0 2017-07-06 22:55:54.624
+!MESSAGE Started Node.js v5.9.1 (V8 v4.6.85.31) [Tern.js, Lightning JS Support] in 137.9 ms
+!SUBENTRY 1 mega.js.tern 1 0 2017-07-06 22:55:54.624
+!MESSAGE Loading tern.js...
+
+!SUBENTRY 1 mega.js.tern 1 0 2017-07-06 22:55:54.624
+!MESSAGE Loading library browser
+
+!SUBENTRY 1 mega.js.tern 1 0 2017-07-06 22:55:54.624
+!MESSAGE Loading library ecmascript
+
+!SUBENTRY 1 mega.js.tern 1 0 2017-07-06 22:55:54.624
+!MESSAGE Loading plugin doc_comment
+
+!SUBENTRY 1 mega.js.tern 1 0 2017-07-06 22:55:54.624
+!MESSAGE Loading plugin aura
+
+!SUBENTRY 1 mega.js.tern 1 0 2017-07-06 22:55:54.624
+!MESSAGE Tern.js (0.20.0) ready
+
+
+!ENTRY mega.js.tern 1 1 2017-07-06 22:55:54.737
+!MESSAGE Initialized JS beautify
+!SUBENTRY 1 mega.js.tern 1 0 2017-07-06 22:55:54.737
+!MESSAGE Started Node.js v5.9.1 (V8 v4.6.85.31) [shared] in 97.35 ms
+
+!ENTRY mega.js.tern 1 1 2017-07-06 22:55:55.266
+!MESSAGE Initialized ES Lint
+!SUBENTRY 1 mega.js.tern 1 0 2017-07-06 22:55:55.266
+!MESSAGE Started Node.js v5.9.1 (V8 v4.6.85.31) [ES Lint, ESLint Component Config, ESLint Aura Style Config] in 92.31 ms
+
+!ENTRY org.eclipse.jface 2 0 2017-07-06 22:55:59.452
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-07-06 22:55:59.452
+!MESSAGE A conflict occurred for COMMAND+W:
+Binding(COMMAND+W,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@706c2726,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+W,
+	ParameterizedCommand(Command(org.eclipse.ui.cocoa.closeDialog,Close Dialog,
+		Closes the active Dialog,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@255482cb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+
+!ENTRY mega.js.tern 1 0 2017-07-06 22:56:05.549
+!MESSAGE Rebuilt component markup index in: 7.031 ms
+
+!ENTRY mega.js.tern 1 0 2017-07-06 22:56:05.615
+!MESSAGE Rebuilt component JavaScript index in: 65.55 ms
+
+!ENTRY org.eclipse.ui.ide 4 0 2017-07-06 22:57:05.805
+!MESSAGE Could not import project located at /Users/tphillips/geolocation
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at /Users/tphillips/geolocation
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:557)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:250)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:596)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:544)
+	... 2 more
